@@ -1,0 +1,33 @@
+.review-container{
+    height: 600px;
+    width: 600px;
+    margin-left: 500px;
+    
+    background-color: rgba(0, 0, 0, 0.178);
+    text-align: center;
+    margin-top: 100px;
+}
+.rating{
+    margin-left: 30px;
+}
+.rating-title{
+    padding-top: 50px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.comment{
+    margin-bottom: 40px;
+}
+
+
+.review-btn1{
+    background-color: rgba(0, 0, 0, 0.215);
+    width: 150px;
+    margin-left: 60px;
+    margin-right: 20px;
+}
+.review-btn2{
+    background-color: #f96f00;
+    width: 150px;
+}

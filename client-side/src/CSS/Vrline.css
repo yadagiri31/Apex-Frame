@@ -1,0 +1,10 @@
+.line-vr-section {
+    position: relative;
+    margin: -35px auto;
+    border: 0;
+    border-left: 2px solid;
+    border-color: #f96f00;
+    width: 2px;
+    height: 70px;
+    z-index: 10;
+}

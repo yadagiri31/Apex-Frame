@@ -1,0 +1,26 @@
+body{
+    color: grey;
+}
+textarea{
+    border: 0px;
+}
+h1{
+    color: black;
+}
+form{
+    width:599.7px ;
+    height:462.5px ;
+    
+    margin-bottom: 50px;
+}
+
+.form-group{
+    margin-bottom: 20px !important;
+}
+
+.btn{
+    margin: 20px;
+    background-color: #f96f00;
+    border: none;
+    border-radius: 0px !important;
+}

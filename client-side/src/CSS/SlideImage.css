@@ -1,0 +1,66 @@
+.mySlides{
+    overflow: hidden;
+}
+.mySlides.fade {
+    
+    position: relative;
+    
+    width: 100%;
+    height: 100vh;
+    overflow: hidden !important;
+    background-size: cover;
+    background-position: center;
+    transition: opacity 1s ease;
+    
+}
+  
+.mySlides.fade.show {
+    opacity: 1; /* Set opacity to 1 for visible slides */
+}
+
+.background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.333);
+}
+
+.slide-info{
+    color: white;
+    width: 500px;
+    position: absolute;
+    left: 200px;
+    top: 400px;
+}
+
+.service-btn{
+    margin-top: 20px;
+    margin-left: 0;
+    /* margin-left: 30px; */
+    padding: 10px 0 !important;
+    border: none !important;
+    border-radius: 0 !important;
+    background-color: #f96f00 !important;
+    transition: 0.5s;
+
+}
+.fa-solid{
+    width: 20px !important;
+}
+
+.service-btn span{
+    display: none;
+}
+
+.service-btn:hover span{
+    transition: 1s;
+    display: inline-block;
+   
+}
+.service-btn:hover {
+    transform: scaleX(1.1) translateX(10%);
+    transition: transform 0.5s;
+}
+

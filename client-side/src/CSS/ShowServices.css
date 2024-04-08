@@ -1,0 +1,33 @@
+.images-col{
+    /* margin: 50px;
+    margin-left: 70px; */
+    /* width: 1400px; */
+    margin: 20px;
+    /* -webkit-transition: -webkit-transform .5s !important;  */
+}
+.service_image{
+    position: relative;
+    width: 450px;
+    margin: 10px;
+    display: inline-block;
+    overflow: hidden;
+    transition: 2s;
+   
+    
+}
+
+
+.service_image:hover::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: background-color 0.3s ease;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha value to change the darkness */
+}
+
+/* .service_image:hover {
+    opacity: 0.8;
+} */

@@ -1,0 +1,88 @@
+.Footer{
+    
+    width: 100%;
+    background-color: #000000;
+    padding-top: 60px !important;
+    
+    
+   
+}
+.footer1{
+    margin-left: 170px;
+    
+}
+.container-fluid{
+    width: 700px;
+    
+}
+.logo-info{
+    color: white;
+}
+
+.icons{
+    color: white;
+    /* border-radius: 50%;
+    border: 0.25px solid grey;
+    padding: 10px; */
+}
+
+.touch{
+    color: orangered;
+}
+
+.contact-info{
+    color: white;
+}
+
+.services{
+    color: white;
+
+}
+.container-fluid{
+    /* height: 400px !important; */
+    width: 100% !important;
+    background-color: black !important;
+    padding-top: 30px;
+}
+
+.brand{
+    /* height: 238.88px !important; */
+    width: 350px !important;
+}
+.logo{
+    width: 170px;
+    height: 116.88px;
+    margin-bottom: 50px;
+}
+.logo-info{
+    width: 350px;
+    height: 112px;
+    margin-bottom: 30px;
+
+}
+.copyright{
+    margin-left: 170px;
+    color: #fff;
+}
+.social-media-icons{
+    width: 150px;
+    color: #fff;
+}
+.contact-info{
+    width: 380px !important;
+    height: 307.88px !important;
+}
+
+.services{
+    width: 285px !important;
+    height: 307.88px !important;
+   
+}
+
+a{
+    text-decoration: none;
+}
+
+.serviceslist{
+    color: grey;
+}
